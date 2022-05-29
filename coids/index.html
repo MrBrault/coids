@@ -1,164 +1,148 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Gavin's Favorite Things | Coids&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>.grayed {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color: #111111;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: #888888;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.good {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color:#1DB100;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #429636;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadein 1s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 3px 8px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: 5px auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.bad {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color: #EE220C;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #B8342B;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadein 1s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 3px 8px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: 5px auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.neutral {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color: #efefef;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #dddddd;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadein 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 3px 8px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: 5px auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.goodScore {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color:#1DB100;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #429636;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fade 1s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.badScore {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color: #EE220C;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #B8342B;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadein 1s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.neutralScore {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-color: #efefef;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #dddddd;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadein 1s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.out {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: fadeout 0.5s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>@keyframes fadein {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>from { opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>to <span class="Apple-converted-space">  </span>{ opacity: 1; }</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>@keyframes fadeout {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>from { opacity: 1; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>to <span class="Apple-converted-space">  </span>{ opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>#footer {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: 0px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.btn {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.jumbotron {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 1px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>#scoreReport {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 1px solid #aaaaaa;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>width: 178px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding:2px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: auto;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 15px</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border: 2px solid #dddddd;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.difference {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-family: courier;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script type="text/javascript" language="JavaScript"&gt;</p>
-<p class="p1">&lt;!-- Copyright 2002 Bontrager Connection, LLC</p>
-<p class="p1">//</p>
-<p class="p1">// Type the number of images you are rotating.</p>
-<p class="p2"><br></p>
-<p class="p1">NumberOfImagesToRotate = 200;</p>
-<p class="p2"><br></p>
-<p class="p1">// Specify the first and last part of the image tag.<span class="Apple-converted-space"> </span></p>
-<p class="p2"><br></p>
-<p class="p1">FirstPart = '&lt;img src="http://coids.tech/coids/coids-';</p>
-<p class="p1">LastPart = '.jpg"&gt;';</p>
-<p class="p2"><br></p>
-<p class="p1">function printImage() {</p>
-<p class="p1">var r = Math.ceil(Math.random() * NumberOfImagesToRotate);</p>
-<p class="p1">document.write(FirstPart + r + LastPart);</p>
-<p class="p1">}</p>
-<p class="p1">//--&gt;</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
-<p class="p1">&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="jumbotron"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Coids&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="http://coids.tech"&gt;&lt;button class="btn btn-danger"id="reset"&gt;&amp;#60; Back&lt;/button&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;br&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;script type="text/javascript" language="JavaScript"&gt;&lt;!--</p>
-<p class="p1">printImage();</p>
-<p class="p1">//--&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;br&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="btn btn-primary" id="roll" onclick="window.location.reload();"&gt;Random&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="footer"&gt;&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><span class="Apple-converted-space">   </span></p>
-<p class="p2"><span class="Apple-converted-space">   </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <head>
+  <title>Gavin's Favorite Things | Coids</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    
+    <style>
+      
+      .grayed {
+        background-color: #111111;
+        color: #888888;
+      }
+      .good {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .bad {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .neutral {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 0.3s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .goodScore {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fade 1s;
+      }
+      .badScore {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+      }
+      .neutralScore {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 1s;
+      }
+      .out {
+        animation: fadeout 0.5s;
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes fadeout {
+        from { opacity: 1; }
+        to   { opacity: 0; }
+      }
+      #footer {
+        margin: 0px;
+      }
+      .btn {
+        margin-bottom: 10px;
+      }
+      .jumbotron {
+        padding: 1px;
+        text-align: center;
+      }
+      #scoreReport {
+        border: 1px solid #aaaaaa;
+        width: 178px;
+        padding:2px;
+        margin: auto;
+        margin-bottom: 15px
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+      }
+      .difference {
+        font-weight: bold;
+        font-family: courier;
+      }
+      
+      
+      
+    </style>
+    
+    <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 200;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img src="http://coids.tech/coids/coids-';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script>
+    
+    
+    
+  </head>
+  <body>
+<div class="container">
+    <div class="jumbotron">
+      
+    <h1>Coids</h1>
+      <a href="http://coids.tech"><button class="btn btn-danger"id="reset">&#60; Back</button></a>
+      <br><br>
+      <script type="text/javascript" language="JavaScript"><!--
+printImage();
+//--></script>
+      <br><br>
+    <button class="btn btn-primary" id="roll" onclick="window.location.reload();">Random</button>
+     <br>
+    
+      
+    
+  <div id="footer"></div>
+
+
+   
+   
+    </div>
 </body>
 </html>
