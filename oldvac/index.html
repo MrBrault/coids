@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Gavin's Favorite Things | Coids</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    
+       <style>
+      
+      .btn {
+        margin-bottom: 10px;
+      }
+      .jumbotron {
+        padding: 1px;
+        text-align: center;
+      }
+      .thumbnail {
+        width: 100%;
+      }
+      .col-sm-4 {
+        text-align: center;
+        background-color: #f9f9f9;
+        padding-top: 10px;
+        border-radius: 25px;
+      } 
+      
+    </style>
+    
+    <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 40;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img src="http://coids.tech/oldvac/oldvac-';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script>
+    
+    
+    
+  </head>
+  <body>
+<div class="container">
+    <div class="jumbotron">
+      
+    <h1>Old Vaccums</h1>
+      <a href="http://coids.tech"><button class="btn btn-danger"id="reset">&#60; Back</button></a>
+      
+      
+      <div id="image" onclick="window.location.reload();">
+        <script type="text/javascript" language="JavaScript">
+          printImage();
+        </script>
+      </div>
+    
+      
+    
+  <div id="footer"></div>
+
+
+   
+   
+    </div>
+</body>
+</html>
