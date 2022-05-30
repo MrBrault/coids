@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gavin's Favorite Things | Coids</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    
+    <style>
+      
+      .grayed {
+        background-color: #111111;
+        color: #888888;
+      }
+      .good {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .bad {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .neutral {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 0.3s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .goodScore {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fade 1s;
+      }
+      .badScore {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+      }
+      .neutralScore {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 1s;
+      }
+      .out {
+        animation: fadeout 0.5s;
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes fadeout {
+        from { opacity: 1; }
+        to   { opacity: 0; }
+      }
+      #footer {
+        margin: 0px;
+      }
+      .btn {
+        margin-bottom: 10px;
+      }
+      .jumbotron {
+        padding: 1px;
+        text-align: center;
+      }
+      #scoreReport {
+        border: 1px solid #aaaaaa;
+        width: 178px;
+        padding:2px;
+        margin: auto;
+        margin-bottom: 15px
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+      }
+      .difference {
+        font-weight: bold;
+        font-family: courier;
+      }
+      img {
+        width: 100%;
+        border: 2px solid #4678B0;
+        max-width: 500px;
+      }
+      .btn-danger { 
+      float: left;}
+      .btn-primary { 
+      float: right;}
+      
+      
+    </style>
+    
+    <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 36;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img src="http://coids.tech/meters/meters-';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script>
+    
+    
+    
+  </head>
+  <body>
+<div class="container">
+    <div class="jumbotron">
+      
+    <h1>Meters</h1>
+      <a href="http://coids.tech"><button class="btn btn-danger"id="reset">&#60; Back</button></a>
+
+      <div id="image" onclick="window.location.reload();">
+        <script type="text/javascript" language="JavaScript">
+          printImage();
+        </script>
+      </div>
+    
+      
+    
+  <div id="footer"></div>
+
+
+   
+   
+    </div>
+</body>
+</html>
