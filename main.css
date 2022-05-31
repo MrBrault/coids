@@ -1,0 +1,94 @@
+      .grayed {
+        background-color: #111111;
+        color: #888888;
+      }
+      .good {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .bad {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .neutral {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 0.3s;
+        padding: 3px 8px;
+        margin: 5px auto;
+      }
+      .goodScore {
+        color: white;
+        background-color:#1DB100;
+        border-radius: 5px;
+        border: 2px solid #429636;
+        animation: fade 1s;
+      }
+      .badScore {
+        color: white;
+        background-color: #EE220C;
+        border-radius: 5px;
+        border: 2px solid #B8342B;
+        animation: fadein 1s;
+      }
+      .neutralScore {
+        background-color: #efefef;
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+        animation: fadein 1s;
+      }
+      .out {
+        animation: fadeout 0.5s;
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes fadeout {
+        from { opacity: 1; }
+        to   { opacity: 0; }
+      }
+      #footer {
+        margin: 0px;
+      }
+      .btn {
+        margin-bottom: 10px;
+      }
+      .jumbotron {
+        padding: 1px;
+        text-align: center;
+      }
+      #scoreReport {
+        border: 1px solid #aaaaaa;
+        width: 178px;
+        padding:2px;
+        margin: auto;
+        margin-bottom: 15px
+        border-radius: 5px;
+        border: 2px solid #dddddd;
+      }
+      .difference {
+        font-weight: bold;
+        font-family: courier;
+      }
+      img {
+        width: 100%;
+        border: 2px solid #4678B0;
+        max-width: 500px;
+        
+      }
+      .btn-danger { 
+      float: left;}
+      .btn-primary { 
+      float: right;}
