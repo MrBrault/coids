@@ -1,21 +1,29 @@
-      .btn {
-        margin-bottom: 10px;
-      }
-      .jumbotron {
-        padding: 1px;
-        text-align: center;
-      }
-      .thumbnail {
-        width: 100%;
-      }
-      .col-sm-4 {
-        text-align: center;
-        background-color: #f9f9f9;
-        padding-top: 10px;
-        border-radius: 25px;
-      } 
-      img {
-        width: 100%;
-        max-width: 800px;
-        margin: 20px
-      }
+.btn {
+      margin-bottom: 10px;
+}
+
+.jumbotron {
+      padding: 1px;
+      text-align: center;
+}
+
+.thumbnail {
+      width: 100%;
+}
+
+.col-sm-4 {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding-top: 10px;
+      border-radius: 25px;
+} 
+
+img {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px;
+}
+
+body {
+      background-color: #adcaf7;
+}
